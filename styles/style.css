@@ -12,7 +12,7 @@
   --decor-color: #FF0070;
   --ul-title-color: #FF0070;
   --shadow-h1-color: #FF0070;
-  --background-image: url(../images/cover-image.png)
+  --background-image: url(../images/cover-image.png);
 }
 
 .page {
@@ -30,7 +30,7 @@
 
 .header {
   inline-size: 100%;
-  block-size: 100vh;
+  height: 100vh;
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
   gap: 3.0556rem;
@@ -457,7 +457,7 @@
     grid-template-columns: 315px 1fr;
   }
 
-  .what-article{
+  .what-article {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
