@@ -44,10 +44,4 @@
   .page.theme_auto .header__hidden-text {
     display: none;
   }
-
-  @media (width >= 1024px) {
-    :root {
-      --title-shadow: #FF0070;
-    }
-  }
 }
