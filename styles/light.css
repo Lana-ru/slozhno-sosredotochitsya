@@ -17,7 +17,7 @@
   --base-text-color: #353430;
   --heading-text-color: #353430;
   --accent-color: #FF8DCB;
-  --background-image: url(../images/cover-image-light.png);
+  --background-image: url("../images/cover-image-light.png");
 }
 
 .page.theme_light .header__hidden-text {

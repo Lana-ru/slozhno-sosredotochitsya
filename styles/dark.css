@@ -16,5 +16,5 @@
   --base-text-color: #F1B2CE;
   --heading-text-color: #000028;
   --accent-color: #FF0070;
-  --background-image: url(../images/cover-image-dark.png);
+  --background-image: url("../images/cover-image-dark.png");
 }
