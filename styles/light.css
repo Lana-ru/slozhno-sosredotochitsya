@@ -24,6 +24,10 @@
   display: none;
 }
 
+.page.theme_light {
+  background-color: none;
+}
+
 @media (prefers-color-scheme: light) {
   .page.theme_auto {
     --title-font-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
@@ -39,6 +43,10 @@
     --heading-text-color: #353430;
     --accent-color: #FF8DCB;
     --background-image: url(../images/cover-image-light.png);
+  }
+
+  .page.page.theme_auto {
+    background-color: none;
   }
 
   .page.theme_auto .header__hidden-text {
