@@ -41,10 +41,6 @@
     --background-image: url(../images/cover-image-light.png);
   }
 
-  .page.page.theme_auto {
-    background-color: none;
-  }
-
   .page.theme_auto .header__hidden-text {
     display: none;
   }
