@@ -23,6 +23,7 @@
   gap: 55px;
   grid-template-rows: 1fr minmax(min-content, max-content) 1fr;
   padding: 10px;
+  align-items: center;
 }
 
 .decorated-zone {
@@ -85,8 +86,6 @@
 .header__theme-menu {
   justify-self: end;
   color: var(--decor-color);
-  align-self: center;
-  margin-block-start: 50px;
 }
 
 .header__theme-menu-list {
@@ -130,7 +129,7 @@
   font-family: var(--font-family), monospace;
   font-size: var(--title-font-size-mobile);
   font-weight: var(--font-weight-bold);
-  line-height: 95.7px;
+  line-height: 0.825;
   text-align: left;
   color: var(--title-color);
   text-shadow: 4px 4px var(--title-shadow);
