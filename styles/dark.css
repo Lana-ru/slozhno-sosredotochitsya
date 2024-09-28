@@ -3,7 +3,7 @@
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-:root .page.theme_dark {
+:root {
   --title-font-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --title-font-size-other: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --font-size: 18px;
@@ -21,7 +21,7 @@
   --bg-color: #000028;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root .page.theme_auto {
     --title-font-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     --title-font-size-other: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
@@ -39,4 +39,4 @@
     --background-image: url("../images/cover-image-dark.png");
     --bg-color: #000028;
   }
-}
+} */
