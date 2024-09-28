@@ -4,7 +4,7 @@
   переключая тему
 */
 
-:root .page.theme_light {
+:root .theme_light {
   --title-font-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --title-font-size-other: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --font-size: 18px;
@@ -27,7 +27,7 @@
 }
 
 @media (prefers-color-scheme: light) {
-  :root .page.theme_auto {
+  :root {
     --title-font-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     --title-font-size-other: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     --font-size: 18px;
