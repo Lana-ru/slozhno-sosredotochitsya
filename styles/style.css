@@ -111,7 +111,7 @@
 }
 
 .header__theme-menu-button:hover {
-  outline: 1px solid var(--decor-color);
+  outline: 1px solid var(--focus-border);
 }
 
 .header__theme-menu-button:focus {
@@ -127,7 +127,6 @@
   font-family: var(--font-family), monospace;
   font-size: var(--title-font-size-mobile);
   font-weight: var(--font-weight-bold);
-  /* line-height: 0.825; */
   line-height: 95.7px;
   text-align: left;
   color: var(--title-color);
@@ -364,7 +363,7 @@
   .header__description {
     inline-size: 491px;
   }
-  
+
   .section__category {
     display: grid;
     gap: 20px;
