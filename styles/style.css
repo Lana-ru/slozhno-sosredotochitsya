@@ -297,14 +297,13 @@
     margin-bottom: 0;
   }
 
-  .content__section:first-of-type,
-  .content__section:nth-of-type(3) {
+  .section__category {
     display: grid;
     gap: 20px;
     grid-template-columns: 236px 1fr;
   }
 
-.content__section:nth-of-type(2) > .content__section-title {
+.section__what > .content__section-title {
   inline-size: 30%;
   }
 
@@ -365,8 +364,8 @@
   .header__description {
     inline-size: 491px;
   }
-  .content__section:first-of-type,
-  .content__section:nth-of-type(3) {
+  
+  .section__category {
     display: grid;
     gap: 20px;
     grid-template-columns: 315px 1fr;
