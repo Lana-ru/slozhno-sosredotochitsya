@@ -15,15 +15,13 @@
 }
 
 .header {
-  margin: 0 auto;
-  inline-size: 100%;
+  padding: 10px;
   min-block-size: 668px;
   block-size: 100vh;
   display: grid;
-  gap: 55px;
-  grid-template-rows: 1fr minmax(min-content, max-content) 1fr;
-  padding: 10px;
   align-items: center;
+  grid-template-rows: 1fr min-content 1fr;
+
 }
 
 .decorated-zone {
@@ -129,7 +127,8 @@
   font-family: var(--font-family), monospace;
   font-size: var(--title-font-size-mobile);
   font-weight: var(--font-weight-bold);
-  line-height: 0.825;
+  /* line-height: 0.825; */
+  line-height: 95.7px;
   text-align: left;
   color: var(--title-color);
   text-shadow: 4px 4px var(--title-shadow);
@@ -158,13 +157,14 @@
   font-family: var(--font-family), monospace;
   font-size: var(--font-size);
   font-weight: var(--font-weight-bold);
-  color: var(--accent-color);
+  color: var(--content-title-color);
   text-align: left;
 }
 
 .content__section-list {
   display: grid;
   gap: 20px;
+  align-items: start;
   margin-bottom: 50px;
 }
 
