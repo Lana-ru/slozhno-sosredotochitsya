@@ -149,10 +149,11 @@
 }
 .content__section {
   line-height: 130%;
+  display: grid;
+  gap: 20px;
 }
 
 .content__section-title {
-  margin-bottom: 20px;
   font-family: var(--font-family), monospace;
   font-size: var(--font-size);
   font-weight: var(--font-weight-bold);
